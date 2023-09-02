@@ -21,7 +21,7 @@ const getAllProducts = async (req, res)=> {
     //Numeric_Filters
     if (numericFilters) {
         const operatorMap = {
-            '>':'$gt',
+            '>':'$gt',      
             '>=':'$gte',
             '=':'$e',
             '<':'$lt',
